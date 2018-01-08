@@ -1,8 +1,61 @@
 /* Universal Styles */
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
 
-/* Header */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding-left: 10px;
+  background-color: black;
+   top: 0;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+nav span a {
+    color: seashell;
+    text-decoration: underline;
+}
 
 /* Main Content Container */
 
